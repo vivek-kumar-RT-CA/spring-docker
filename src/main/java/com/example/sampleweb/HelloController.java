@@ -12,4 +12,10 @@ public class HelloController {
 		return "Hello Ninja";
 	}
 
+	@GetMapping
+	public String service() {
+
+		return "Sample Web App";
+	}
+
 }
